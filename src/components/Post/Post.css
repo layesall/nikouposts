@@ -1,0 +1,66 @@
+.post-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: auto;
+  min-height: calc(100vh - 80px);
+}
+
+.post-card{
+  position: relative;
+  width: 700px;
+  height: 500px;
+  border: 3px solid;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.post-title {
+  text-transform: uppercase;
+  padding: .3rem;
+  margin-bottom: 3rem;
+  border-bottom: aquamarine 1rem solid;
+}
+
+.post-id {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  background: aquamarine;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.btn-close {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  background: aquamarine;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bolder;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-close:hover{
+  color: aquamarine;
+  background: #333;
+}
